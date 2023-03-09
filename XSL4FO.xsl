@@ -50,7 +50,8 @@ Lenguajes de Marcas y Sistemas de Gestión de la Información
               line-height="15pt"
               space-after.optimum="15pt"
               text-align="justify">
-          <fo:block><fo:external-graphic src="" content-width="5cm"/></fo:block>
+          <fo:block>
+              <fo:external-graphic src="{enclosure/@url}" content-width="5cm"/></fo:block>
           <fo:block font-size="12"
               font-family="Trebuchet"
               font-weight="bold"
