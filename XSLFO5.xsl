@@ -41,25 +41,20 @@
                               font-family="Arial"
                               text-decoration="underline"
                               margin-top="20px"
-                              margin-bottom="10px"
+                              margin-bottom="20px"
                               font-size="18px">POOL DE NOTICIAS SINDICADAS
                     </fo:block>
                     <xsl:apply-templates select="item"/>
 
-                    <fo:block text-align="left" font-family="TimesNewRoman" font-size="12pt" font-weight="bold">
-                        Componentes del grupo: Alejandro Ortiz Fuentes
+                    <fo:block text-align="left" font-family="TimesNewRoman" font-size="12pt" font-weight="bold" margin-top="10cm">
+                        Componentes del grupo: &#160;&#160; Alejandro Ortiz Fuentes
                     </fo:block>
-                    <fo:block text-align="left" font-family="TimesNewRoman" font-size="12pt" font-weight="bold">
-                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Pedro Real Ramos
+                    <fo:block text-align="left" font-family="TimesNewRoman" font-size="12pt" font-weight="bold" margin-left="29%">Pedro Real Ramos
                     </fo:block>
-                    <fo:block text-align="left" font-family="TimesNewRoman" font-size="12pt" font-weight="bold">
-                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Víctor Vilches García
+                    <fo:block text-align="left" font-family="TimesNewRoman" font-size="12pt" font-weight="bold" margin-left="29%">Víctor Vilches García
                     </fo:block>
-                     <fo:block text-align="left" font-family="TimesNewRoman" font-size="12pt" font-weight="bold">
-                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Carlos Ruiz Santana
+                     <fo:block text-align="left" font-family="TimesNewRoman" font-size="12pt" font-weight="bold" margin-left="29%">
+                         Carlos Ruiz Santana
                     </fo:block>
 
                 </fo:flow>
@@ -68,7 +63,7 @@
     </xsl:template>
 
     <xsl:template match="item">
-        <fo:block border="solid black 1pt" padding="0.3cm" margin-bottom="0.7cm" margin-left="4cm" margin-right="4cm">
+        <fo:block border="solid black 1pt" padding="0.3cm" margin-bottom="0.8cm" margin-left="4cm" margin-right="4cm">
 
             <fo:block margin-bottom="0.4cm" >
                 <fo:external-graphic src="{enclosure/@url}" content-width="50px" content-height="50px"/>
